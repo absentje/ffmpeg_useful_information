@@ -1,6 +1,7 @@
 # ffmpeg_useful_information
 
 ## Check available devices: (for example: ip cameras, ip microphones):
+## (https://trac.ffmpeg.org/wiki/Capture/Webcam)
 ffmpeg -list_devices true -f dshow -i dummy
 
 example output:
